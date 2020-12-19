@@ -38,8 +38,8 @@ const Footer = () => {
         </div>
         <hr />
         <span className="footer__text">
-          © {new Date().getFullYear()}, made with {'  '}
-          <i className="fa fa-heart heart" /> by E4ma
+          © {new Date().getFullYear()} E4ma
+          {/* made with <i className="fa fa-heart heart" /> by E4ma */}
         </span>
 
       </Container>

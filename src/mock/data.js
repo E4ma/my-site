@@ -18,9 +18,9 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: 'The name is Ifeoma Idoko....Welcome to my site! I am a big picture thinker and psychology enthusiast known for having a curious nature, problem solving, the ability to learn quickly and a continous improvement mindset',
-  paragraphTwo: 'Runner up for the award of Female Wealth Manager of the Year in Canada, I am currently completing a Full Stack Web Developer program at EvolveU and loving every minute of it. See my projects for some of my work so far.',
+  img: 'arm-brace1.jpg',
+  paragraphOne: 'The name is Ifeoma Idoko....Welcome to my site! I am a big picture thinker and psychology enthusiast known to have a curious nature, problem solving skills, the ability to learn quickly and a continous improvement mindset.',
+  paragraphTwo: 'Runner up for the award of Female Wealth Manager of the Year in Canada (2019), currently completing a Full Stack Web Developer program at EvolveU and loving every minute of it. See my projects for some of my work so far.',
   paragraphThree: '',
   resume: 'Resume', // if no resume, the button will not show up
   projects: 'Projects',
@@ -30,36 +30,36 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'face-detect.JPG',
-    title: 'Face Detection bot',
-    info: 'A simple website that detects faces in pictures. All you have to do it input the picture URL. I built this using mainly React and it makes API calls to Clarifai. It was fun to use some CSS libraries in this project',
+    img: 'evolveu-landing.jpg',
+    title: 'Landing Page',
+    info: 'A simple landing page I created for for a landing page contest hosted by EvolveU, the organization where I am completing a Full Stack Web Developer program.',
     info2: '',
-    url: 'https://e4ma.github.io/face-detection-bot/',
-    repo: 'https://github.com/E4ma/face-detection-bot', // if no repo, the button will not show up
+    url: 'https://e4ma.github.io/evolveu-landingpage/',
+    repo: 'https://github.com/E4ma/evolveu-landingpage', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'roamin.jpg',
     title: 'Roamin`',
     info: 'This is a full stack app prototype created over the course of 4 weeks with 3 other teammates. The app currently recommends places for the user to visit within their town based on the travel personality chosen by the user.',
     info2: 'The objective of the app (in future) is to build and store for the user, vacation destinations and activities within Canada, displayed in English and French, and enable the user access to book them.',
-    url: '',
-    repo: 'https://github.com/E4ma', // if no repo, the button will not show up
+    url: 'https://youtu.be/AY5wVro-8UE',
+    repo: 'https://github.com/E4ma/travelapp-combined.git', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'robotfriends.jpg',
-    title: 'Robot Friends',
-    info: 'This app lets you search for robot friends from already stored data. The Robots were lovingly delivered by Robohash.org!',
-    info2: 'See live and have fun with the robots!',
-    url: 'https://e4ma.github.io/robofriends/',
-    repo: 'https://github.com/E4ma/robofriends', // if no repo, the button will not show up
+    img: 'portfolio.JPG',
+    title: 'Portfolio Website',
+    info: 'This is a portfolio website I built using HTML, CSS and vanilla Javascript for my first project. I was excited to play around wuth what I had newly learned and I look forward to learning how to make the illustration walk across the page.',
+    info2: 'That would be hella cool!',
+    url: 'https://e4ma.github.io/evolveu_project1/',
+    repo: 'https://github.com/E4ma/evolveu_project1', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Want to work with me? Awesome!',
+  cta: 'Like what you see? Awesome!',
   btn: '',
   email: 'email@ifeomaidoko.com',
 };

@@ -79,17 +79,17 @@ const About = () => {
                   <p>HTML / CSS / Javascript
                   <ProgressBar animated now={100} />
                   </p>
-                  <p>GatsbyJs
+                  <p>GraphQL & GatsbyJs
                   <ProgressBar animated variant="warning" now={60} />
                   </p>
-                  <p>GraphQl / Express
+                  <p>ExpressJS
                   <ProgressBar animated variant="info" now={40} />
                   </p>
                   <p>ReactJs
                   <ProgressBar animated variant="danger" now={90} />
                   </p>
-                  <p>
-                    
+                  <p>PostgreSQL & MongoDB
+                  <ProgressBar animated variant="" now={30} />
                   </p>
                 
                 </div>
