@@ -80,16 +80,16 @@ const About = () => {
                   <ProgressBar animated now={100} />
                   </p>
                   <p>GraphQL & GatsbyJs
-                  <ProgressBar animated variant="warning" now={60} />
+                  <ProgressBar animated variant="warning" now={50} />
                   </p>
                   <p>ExpressJS
-                  <ProgressBar animated variant="info" now={40} />
+                  <ProgressBar animated variant="info" now={70} />
                   </p>
                   <p>ReactJs
                   <ProgressBar animated variant="danger" now={90} />
                   </p>
                   <p>PostgreSQL & MongoDB
-                  <ProgressBar animated variant="" now={30} />
+                  <ProgressBar animated variant="" now={70} />
                   </p>
                 
                 </div>

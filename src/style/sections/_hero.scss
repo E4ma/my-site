@@ -15,14 +15,17 @@
   right: 0;
   z-index: -1;
 
-  // If you want to set a background image on the hero section, uncomment these with yout custom image
-
-  /* background: url("/src/assets/[your-image].png");
-  background-position: center;
-  background-size: cover; */
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
+  }
+
+  .hero-image {
+    height: 200px; /* You must set a specified height */
+    background-image: url(https://www.animatedimages.org/data/media/519/animated-happy-new-year-image-0034.gif);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
   }
 
   .hero-title {
