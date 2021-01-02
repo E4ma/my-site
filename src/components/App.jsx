@@ -27,13 +27,13 @@ function App() {
     setFooter({ ...footerData });
   }, []);
 
-  document.documentElement.classList.remove("nav-open");
-  React.useEffect(() => {
-    document.body.classList.add("app");
-    return function cleanup() {
-      document.body.classList.remove("app");
-    };
-  });
+  // document.documentElement.classList.remove("nav-open");
+  // React.useEffect(() => {
+  //   document.body.classList.add("app");
+  //   return function cleanup() {
+  //     document.body.classList.remove("app");
+  //   };
+  // });
 
   return (
     <PortfolioProvider value={{ heronav, hero, about, projects, contact, footer }}>
