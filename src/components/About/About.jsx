@@ -83,13 +83,13 @@ const About = () => {
                   <ProgressBar animated variant="warning" now={50} />
                   </p>
                   <p>ExpressJS
-                  <ProgressBar animated variant="info" now={70} />
+                  <ProgressBar animated variant="info" now={80} />
                   </p>
                   <p>ReactJs
-                  <ProgressBar animated variant="danger" now={90} />
+                  <ProgressBar animated variant="danger" now={100} />
                   </p>
                   <p>PostgreSQL & MongoDB
-                  <ProgressBar animated variant="" now={70} />
+                  <ProgressBar animated variant="" now={80} />
                   </p>
                 
                 </div>

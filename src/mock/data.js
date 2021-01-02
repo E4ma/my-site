@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphOne: 'The name is Ifeoma Idoko....Welcome to my site! I am a big picture thinker and a psychology enthusiast, known to have a curious nature, problem solving skills, the ability to learn quickly and a continous improvement mindset.',
   paragraphTwo: 'Runner up for the award of Female Wealth Manager of the Year in Canada (2019), currently completing a Full Stack Web Developer program at EvolveU and loving every minute of it. See my projects for some of my work so far.',
   paragraphThree: '',
-  resume: 'Resume', // if no resume, the button will not show up
+  //resume: '', // if no resume, the button will not show up
   projects: 'Projects',
 };
 
