@@ -61,7 +61,7 @@ export const projectsData = [
 export const contactData = {
   cta: 'Like what you see? Awesome!',
   btn: '',
-  email: 'email@ifeomaidoko.com',
+  email: 'ifeomaidoko@gmail.com',
 };
 
 // FOOTER DATA
